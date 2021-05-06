@@ -39,7 +39,6 @@ def get_rand_job_desc(year):
             f = open(PROCESSED_DATA + category + "/" + category + "_" + year + "_" + job_id + ".txt", "w")
             f.write(desc)
             f.close()
-        # job_df.to_csv(PROCESSED_DATA + category + ".csv")
 
 if __name__ == '__main__':
     main()
